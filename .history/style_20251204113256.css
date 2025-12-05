@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+h2 {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: #4c545d;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+p {
+  color: #9fabb2;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+  padding: 40px;
+}
+.hero,
+. {
+  margin: 40px 0;
+}

@@ -1,0 +1,18 @@
+* body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: ;
+}
+h2 {
+  color: #000;
+}
+h3 {
+  color: #4c545d;
+}
+p {
+  color: #9fabb2;
+}

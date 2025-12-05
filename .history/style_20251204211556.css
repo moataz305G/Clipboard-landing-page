@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+h1 {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #4c545d;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  max-width: 600px;
+  color: #9fabb2;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  line-height: 1.6;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+  padding: 40px;
+}
+.hero,
+.snippets,
+.fuatures,
+.access-anywhere,
+.tools,
+.workflow,
+.bag-campany,
+.Doewnlode {
+  margin: 60px 0;
+}
+/* article div {
+  text-align: center;
+} */
+button {
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.IOS-button {
+  background-color: #26baa4ff;
+}
+.Mac-button {
+  background-color: #6173ff;
+}
+
+.fuatures-computer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fuatures-computer p {
+  max-width: 300px;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.largest-companies {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

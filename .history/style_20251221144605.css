@@ -46,7 +46,16 @@ p {
   padding: 40px;
   row-gap: 100px;
 }
-
+/* .hero,
+.snippets,
+.fuatures,
+.access-anywhere,
+.tools,
+.workflow,
+.bag-campany,
+.Doewnlode {
+  margin: 60px 0;
+} */
 /* button */
 .btn {
   color: #fff;
@@ -102,17 +111,11 @@ p {
 }
 /* end workflow */
 
-/* largest */
 .largest-companies {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-/* End largest */
-
-/* Doewnlode */
-/* End Doewnlode */
-
 /* footer */
 footer {
   display: flex;
@@ -139,7 +142,7 @@ footer {
   gap: 15px;
   cursor: pointer;
 }
-.footer__icon:hover {
+.footer__social-media:hover {
   transform: scale(1.2);
 }
 /* end footer */

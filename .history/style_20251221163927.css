@@ -46,7 +46,16 @@ p {
   padding: 40px;
   row-gap: 100px;
 }
-
+/* .hero,
+.snippets,
+.fuatures,
+.access-anywhere,
+.tools,
+.workflow,
+.bag-campany,
+.Doewnlode {
+  margin: 60px 0;
+} */
 /* button */
 .btn {
   color: #fff;
@@ -109,9 +118,6 @@ p {
   gap: 30px;
 }
 /* End largest */
-
-/* Doewnlode */
-/* End Doewnlode */
 
 /* footer */
 footer {

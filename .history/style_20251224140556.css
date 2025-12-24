@@ -76,6 +76,7 @@ p {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  column-gap: 20px;
 }
 .fuature__image {
   width: 100%;

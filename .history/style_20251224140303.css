@@ -73,9 +73,9 @@ p {
 /* fuatures */
 .fuatures {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 1fr 300px;
   justify-content: center;
+  column-gap: 20px;
 }
 .fuature__image {
   width: 100%;

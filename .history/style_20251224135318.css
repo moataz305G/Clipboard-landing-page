@@ -4,7 +4,7 @@
 }
 .container {
   /* width: auto; */
-  /* height: auto; */
+  height: auto;
   /* margin: 0 auto; */
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
@@ -30,10 +30,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: bold;
+  font-weight: 600;
 }
 p {
-  /* max-width: 600px; */
+  max-width: 600px;
   color: #9fabb2;
   margin: 0 auto;
   margin-top: 10px;
@@ -41,6 +41,9 @@ p {
 
   line-height: 1.6;
   text-align: center;
+}
+
+.container {
 }
 
 /* button */
@@ -72,17 +75,16 @@ p {
 
 /* fuatures */
 .fuatures {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  gap: 15px;
 }
-.fuature__image {
+/* .fuature__image {
   width: 100%;
-}
-/* .fuatures__text p {
-  max-width: 300px;
 } */
+.fuatures__text p {
+  max-width: 300px;
+}
 /* end fuatures */
 
 /* workflow */

@@ -33,7 +33,7 @@ h4 {
   font-weight: bold;
 }
 p {
-  /* max-width: 600px; */
+  max-width: 600px;
   color: #9fabb2;
   margin: 0 auto;
   margin-top: 10px;
@@ -73,9 +73,9 @@ p {
 /* fuatures */
 .fuatures {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 1fr 300px;
   justify-content: center;
+  column-gap: 20px;
 }
 .fuature__image {
   width: 100%;

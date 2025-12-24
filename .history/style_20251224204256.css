@@ -114,8 +114,8 @@ img {
 /* End largest */
 
 /* Doewnlode */
-.Doewnlode {
-  margin-bottom: 20px;
+.Download {
+  margin: 70px auto;
 }
 /* End Doewnlode */
 
@@ -216,3 +216,13 @@ footer {
   }
 }
 /* end media */
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+/* .workflow__tools,
+.largest-companies {
+  flex-wrap: wrap;
+} */

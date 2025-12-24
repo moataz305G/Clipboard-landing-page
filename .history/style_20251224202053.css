@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
 }
-* {
-  box-sizing: border-box;
-}
 .container {
+  /* width: auto; */
+  /* height: auto; */
+  /* margin: 0 auto; */
   max-width: 1440px;
+
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
   display: grid;
@@ -42,11 +43,6 @@ p {
 
   line-height: 1.6;
   text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* button */
@@ -86,7 +82,9 @@ img {
 .fuature__image {
   width: 100%;
 }
-
+/* .fuatures__text p {
+  max-width: 300px;
+} */
 /* end fuatures */
 
 /* workflow */
@@ -114,9 +112,6 @@ img {
 /* End largest */
 
 /* Doewnlode */
-.Doewnlode {
-  margin-bottom: 20px;
-}
 /* End Doewnlode */
 
 /* footer */
@@ -126,10 +121,9 @@ footer {
   padding: 20px 200px;
 }
 .footer__links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .footer__links a {
   text-decoration: underline dotted;
@@ -216,3 +210,22 @@ footer {
   }
 }
 /* end media */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+/* .workflow__tools,
+.largest-companies {
+  flex-wrap: wrap;
+} */

@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 .container {
+  /* width: auto; */
+  /* height: auto; */
+  /* margin: 0 auto; */
   max-width: 1440px;
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
@@ -86,7 +89,9 @@ img {
 .fuature__image {
   width: 100%;
 }
-
+/* .fuatures__text p {
+  max-width: 300px;
+} */
 /* end fuatures */
 
 /* workflow */
@@ -114,9 +119,6 @@ img {
 /* End largest */
 
 /* Doewnlode */
-.Doewnlode {
-  margin-bottom: 20px;
-}
 /* End Doewnlode */
 
 /* footer */
@@ -216,3 +218,13 @@ footer {
   }
 }
 /* end media */
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+/* .workflow__tools,
+.largest-companies {
+  flex-wrap: wrap;
+} */

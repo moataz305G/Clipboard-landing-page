@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 .container {
+  /* width: auto; */
+  /* height: auto; */
+  /* margin: 0 auto; */
   max-width: 1440px;
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
@@ -34,7 +37,7 @@ h4 {
   font-weight: bold;
 }
 p {
-  /* max-width: 600px; */
+/* max-width: 600px; */
   color: #9fabb2;
   margin: 0 auto;
   margin-top: 10px;
@@ -86,7 +89,9 @@ img {
 .fuature__image {
   width: 100%;
 }
-
+/* .fuatures__text p {
+  max-width: 300px;
+} */
 /* end fuatures */
 
 /* workflow */
@@ -114,9 +119,6 @@ img {
 /* End largest */
 
 /* Doewnlode */
-.Doewnlode {
-  margin-bottom: 20px;
-}
 /* End Doewnlode */
 
 /* footer */
@@ -126,10 +128,9 @@ footer {
   padding: 20px 200px;
 }
 .footer__links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .footer__links a {
   text-decoration: underline dotted;
@@ -216,3 +217,17 @@ footer {
   }
 }
 /* end media */
+
+
+
+
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+/* .workflow__tools,
+.largest-companies {
+  flex-wrap: wrap;
+} */

@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
 }
-* {
-  box-sizing: border-box;
-}
 .container {
+  /* width: auto; */
+  /* height: auto; */
+  /* margin: 0 auto; */
   max-width: 1440px;
+
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
   display: grid;
@@ -34,6 +35,7 @@ h4 {
   font-weight: bold;
 }
 p {
+  /* max-width: 600px; */
   color: #9fabb2;
   margin: 0 auto;
   margin-top: 10px;
@@ -41,11 +43,6 @@ p {
 
   line-height: 1.6;
   text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* button */
@@ -85,7 +82,9 @@ img {
 .fuature__image {
   width: 100%;
 }
-
+/* .fuatures__text p {
+  max-width: 300px;
+} */
 /* end fuatures */
 
 /* workflow */
@@ -113,22 +112,18 @@ img {
 /* End largest */
 
 /* Doewnlode */
-.Doewnlode {
-  margin-bottom: 20px;
-}
 /* End Doewnlode */
 
 /* footer */
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 200px;
 }
 .footer__links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .footer__links a {
   text-decoration: underline dotted;
@@ -149,68 +144,3 @@ footer {
   transform: scale(1.2);
 }
 /* end footer */
-
-@media (max-width: 768px) {
-  .container {
-    margin: 40px 20px;
-    row-gap: 60px;
-  }
-
-  /* buttons */
-  .btn {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-  }
-
-  /* fuatures */
-  .fuatures {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .fuature__image {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  /* workflow */
-  .workflow__tools {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* companies */
-  .largest-companies {
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-  }
-
-  /* footer */
-
-  .footer {
-    flex-direction: column;
-    gap: 2rem;
-    text-align: center;
-  }
-
-  .footer__links {
-    grid-template-columns: 1fr;
-  }
-}
-/* end media */
-@media (max-width: 500px) {
-  h1 {
-    font-size: 26px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-/* end media */

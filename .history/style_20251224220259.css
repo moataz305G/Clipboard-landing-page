@@ -34,6 +34,7 @@ h4 {
   font-weight: bold;
 }
 p {
+  /* max-width: 600px; */
   color: #9fabb2;
   margin: 0 auto;
   margin-top: 10px;
@@ -188,15 +189,16 @@ footer {
   }
 
   /* footer */
-
-  .footer {
+  footer {
     flex-direction: column;
-    gap: 2rem;
+    gap: 20px;
+    padding: 30px 20px;
     text-align: center;
   }
 
   .footer__links {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: 15px;
   }
 }
 /* end media */

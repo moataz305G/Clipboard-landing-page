@@ -145,7 +145,7 @@ footer {
 }
 /* end footer */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .container {
     margin: 40px 20px;
     row-gap: 60px;
@@ -196,7 +196,7 @@ footer {
   }
 }
 /* end media */
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 26px;
   }
